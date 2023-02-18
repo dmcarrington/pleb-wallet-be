@@ -1,0 +1,7 @@
+start application with `npm run start-dev` - Polar network must already be up
+
+To create a new migration: `npx knex migrate:make <table_name>`
+Apply migration: `npm migrate up <migration file created by prev step>`
+
+Create new seed: `npx knex seed:make <filename>`
+Apply seed: `npx knex seed:run <filename>`
